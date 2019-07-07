@@ -5,11 +5,11 @@
 
 body{
 	background-color:magenta;
-	margin:5;
 }
 
 #message{
 	background:lightblue;
+	margin:5;
 }
 
 img {
@@ -28,24 +28,20 @@ img {
 	grid-template-columns: 33% 33% 30%; 
 }
 
-
-@media (max-width:330px){
-	img {
-		flex:100%;
-	}
-} 
-
 .center {
 	text-align:center;	
 }
 #opening {
 	font-size:50px;
+	margin:5;
 }
 #about {
 	font-size:30px;	
+	margin:5;
 }
 #message {
 	font-size:25px;
+	margin:5;
 }
 .rotate {
 	transform:rotate(90deg);
@@ -74,11 +70,17 @@ img {
 	background: blue;
 	grid-column-gap: 20px;
 	grid-template-columns: 33% 33% 33%; 
-	margin-bottom:5px;
 }
 
-@media (max-width:600px){
-	img {
-		flex:100%;
+.move{
+	margin-bottom:20px;
+}
+
+@media (max-width:800px){
+	.pcontainer, .plibrary, .timage {
+		grid-template-columns:100%; 
 	}
 } 
+
+
+
