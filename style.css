@@ -60,6 +60,10 @@ img {
 	margin-top: 37px;
 	max-height: 230px;
 }
+
+.bverticals {
+	max-height:200px;
+}
 .rotatefull{
 	transform:rotate(180deg);
 }
@@ -85,6 +89,12 @@ img {
 	display: flex;
 }
 
+#bottom{
+	display:flex;
+}
+#bottom img {
+	flex-basis:50%;
+}
 #yup img, #yup iframe {
 	max-height: 400px;
 }
