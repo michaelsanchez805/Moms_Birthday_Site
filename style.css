@@ -9,7 +9,10 @@ body{
 
 #message{
 	background:lightblue;
-	margin:5;
+	margin:5px;
+	padding: 20px;
+	line-height: 35px;
+
 }
 
 img {
@@ -69,12 +72,29 @@ img {
 	display:grid;
 	background: blue;
 	grid-column-gap: 20px;
-	grid-template-columns: 33% 33% 33%; 
+	grid-template-columns: 32% 32% 32%; 
 }
 
 .move{
 	margin-bottom:20px;
 }
+#yup{
+	display: flex;
+}
+
+#yup img, #yup iframe {
+	max-height: 400px;
+}
+
+iframe {
+	min-width: 600px;
+}
+
+#yup a {
+	flex-basis: 50%;
+}
+
+
 
 @media (max-width:800px){
 	.pcontainer, .plibrary, .timage {
