@@ -78,6 +78,9 @@ img {
 .move{
 	margin-bottom:20px;
 }
+#info{
+	font-size:24px;
+}
 #yup{
 	display: flex;
 }
@@ -88,6 +91,7 @@ img {
 
 iframe {
 	min-width: 600px;
+	margin-left:200px;
 }
 
 #yup a {
